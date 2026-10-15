@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+input::placeholder {
+  font-weight: 500;
+}
+
+textarea::placeholder {
+  font-weight: 500;
+}
+
+/* Dropdown styling - black text for all select elements */
+select,
+.select-dropdown {
+  color: #000000 !important;
+  background-color: white;
+}
+
+select option,
+.select-dropdown option {
+  color: #000000 !important;
+  background-color: white;
+}
+
+select:focus,
+.select-dropdown:focus {
+  color: #000000 !important;
+  outline: none;
+  ring: 2px;
+  ring-color: #0ea5e9;
+}
+
+/* Dark mode dropdown styling */
+.dark select,
+.dark .select-dropdown {
+  color: #1f293d !important;
+  background-color: #1e293b;
+}
+
+.dark select option,
+.dark .select-dropdown option {
+  color: #000000 !important;
+  background-color: white;
+}
+
+/* All form select elements */
+form select,
+div select {
+  color: #000000 !important;
+}
+
+form select option,
+div select option {
+  color: #000000 !important;
+  background-color: white;
+}

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+coverage/
+.next/
+.angular/
+.svelte-kit/
+.output/
+
+# Local environment files and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Logs and temporary files
+*.log
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.tsbuildinfo
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.cache/
+.vite/
+.turbo/
+.parcel-cache/
+__pycache__/
