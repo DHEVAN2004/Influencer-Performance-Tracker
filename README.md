@@ -39,3 +39,7 @@ mvn spring-boot:run
 ```
 
 The API starts on port `8080` by default. Do not commit real passwords or signing secrets.
+
+## License
+
+This project is licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE).
