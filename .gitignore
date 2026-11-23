@@ -1,0 +1,14 @@
+﻿**/node_modules/
+**/dist/
+**/target/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.mv.db
+**/*.trace.db
+**/.idea/
+**/*.iml
+**/influencer_db.sql
+**/server-args.txt
+**/query
+**/*.bak
